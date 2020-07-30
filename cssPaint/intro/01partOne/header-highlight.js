@@ -6,7 +6,7 @@ registerPaint('headerHighlight', class {
   paint(ctx) {
     // ctx -> drawing context
 
-		ctx.fillStyle = 'hsla(55, 90%, 60%, 1.0)';
+		ctx.fillStyle = 'red';
 		ctx.fillRect(0, 15, 200, 20);
 
   }
